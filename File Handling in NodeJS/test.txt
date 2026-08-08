@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 13 
 13 
+=======
+Hye there6/5/2026, 6:13:50 PM6/5/2026, 6:13:55 PM6/5/2026, 6:14:23 PM6/5/2026, 6:14:39 PM6/5/2026, 6:14:46 PM6/5/2026, 6:15:03 PM6/5/2026, 6:15:08 PMnew Date().toLocaleString()hye harryhye harry 
+hye harry 
+hye harry 
+fs.appendFileSync("./test.txt", new Date().toLocaleString())
+hye harry hye harryhye harryhye harry
+>>>>>>> adc02d780291dd010dd26e33457022369ca815b1

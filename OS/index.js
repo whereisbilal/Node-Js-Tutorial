@@ -14,8 +14,12 @@ const os = require('node:os');
 
 // console.log(`Available CPUs: ${cpuCount}`);
 
+<<<<<<< HEAD
 console.log(os.cpus().length);
 
 
 console.log(os.availableParallelism());
 console.log(os.hostname());
+=======
+console.log(os.cpus().length);
+>>>>>>> adc02d780291dd010dd26e33457022369ca815b1

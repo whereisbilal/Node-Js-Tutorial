@@ -13,5 +13,8 @@
 1784292613994 /about:  new request resevied 
 1784292649611 /:  new request resevied 
 1784292650194 /favicon.ico:  new request resevied 
+<<<<<<< HEAD
 1786088648255 /:  new request resevied 
 1786088648587 /favicon.ico:  new request resevied 
+=======
+>>>>>>> adc02d780291dd010dd26e33457022369ca815b1

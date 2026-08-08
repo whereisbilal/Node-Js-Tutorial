@@ -1,4 +1,5 @@
 const fs = require("fs");
+<<<<<<< HEAD
 const math = require("../Modules in NodeJS/math");
 
 const http = require("http");
@@ -23,10 +24,18 @@ const { loadavg } = require("os");
 
 // writeFile
 
+=======
+
+// Sync
+// const r = fs.writeFileSync("./test.txt", "Hye there");
+// console.log(r);
+
+>>>>>>> adc02d780291dd010dd26e33457022369ca815b1
 // // Async
 // const b = fs.writeFile("./form.txt", "I am form", (err)=>{});
 // console.log(b);
 
+<<<<<<< HEAD
 // Sync 
 // const b = fs.writeFileSync("./form.txt", "I am form");
 // console.log(b);
@@ -126,3 +135,11 @@ fs.writeFileSync("./abu.txt", "I am abu iam harrypotter");
 
 
 // console.log("Hello");   
+=======
+// fs.appendFileSync("./test.txt", new Date().toLocaleString())/
+// fs.appendFileSync("./test.txt", "hye harry")
+               
+// console.log(fs.statSync("./test.txt").atime)
+
+const a = fs.writeFileSync("./abu.txt","I am abu iam harrypotter")
+>>>>>>> adc02d780291dd010dd26e33457022369ca815b1
