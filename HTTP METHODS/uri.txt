@@ -4,3 +4,13 @@ GET /search?query_search=codewithharry
 GET /search?query_search=codewithharry 
 GET /search?query_search=heyharry 
 GET /search?query_search=oggy 
+GET /search?query_search=oggy 
+GET /search?query_search=oggy&myage=16 
+GET /search?query_search=oggy&myage=16 
+GET /search?query_search=oggy&myage=4000 
+GET /search?query_search=oggy&myage=enfiwe8ifhwfy789378f78348 
+GET /search?query_search=oggy 
+
+
+color 3 balti 4500 + 4500 + 4500
+mati tel 2 liter 800

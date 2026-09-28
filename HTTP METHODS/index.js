@@ -2,7 +2,8 @@ const http = require("http");
 const fs = require("fs");
 const url = require("url")
 
-const server = http.createServer((req, res) => {
+
+const myHandler = ((req, res) => {
     if (req.url === "/favicon.ico") {
         res.statusCode = 204;
         return res.end();
@@ -29,7 +30,9 @@ const server = http.createServer((req, res) => {
         case "/search":
             if (req.method === "GET") {
                 const search = myUrl.query.query_search;
-                res.end(`Here are your search result ${search}`)
+                const age = myUrl.query.myage;
+
+                res.end(`Here are your search result ${search} and my age is ${age}`)
             }
 
             break;
@@ -37,15 +40,10 @@ const server = http.createServer((req, res) => {
         default:
             break;
     }
+})
 
 
-
-
-
-
-
-    // res.end("Request received");
-});
+const server = http.createServer(myHandler);
 
 
 server.listen(8000, () => {
